@@ -1,7 +1,13 @@
-function Search({cityName, setCityName}){
+function Search({cityName, setCityName, getGeoCord}){
 
   function HandleOnchange(event){
     setCityName(event.target.value)
+  }
+  function HandlekeyDown(event) {
+   
+    if (event.keyCode = 13 ) {
+      getGeoCord();
+    }
   }
     return(
     <div class="topnav">
@@ -9,10 +15,7 @@ function Search({cityName, setCityName}){
   <a href="#about">About</a>
   <a href="#Weather">Weather</a>
   <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder=  "Search Your City.." name="search" value={cityName} onChange={HandleOnchange}></input>
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
+      <input type="text" placeholder=  "Search Your City.." name="search" value={cityName} onChange={HandleOnchange} onKeyDown={HandlekeyDown}></input>
   </div>
 </div>
 
