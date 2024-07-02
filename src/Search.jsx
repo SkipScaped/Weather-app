@@ -12,8 +12,7 @@ function Search({cityName, setCityName, getGeoCord}){
     return(
     <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#Weather">Weather</a>
+
   <div class="search-container">
       <input type="text" placeholder=  "Search Your City.." name="search" value={cityName} onChange={HandleOnchange} onKeyDown={HandlekeyDown}></input>
   </div>
