@@ -26,9 +26,11 @@ const [weatherdetails, setWeatherDetails] = useState();
       setCityName = {setCityName}
       getGeoCord= {getGeoCord}
     ></Search>
+    <fiveDayForcast></fiveDayForcast>
     {weatherdetails && (<WeatherDetails
 weatherdetails = {weatherdetails}
 />)}
+
 
     </>
     
