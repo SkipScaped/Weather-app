@@ -31,5 +31,5 @@ npm run dev
 <footer>
   <p>&copy; 2024 made by <a herf="github.com/SkipScaped">By Aaliyan</a></p>
 </footer>
-# Note:
-<p>Not for deployment for help purpaces only see the code and right your own if deployed legal actions will be taken.</p>
+#Note:
+<p>Not for deployment for help only see the code and right your own if deployed legal actions will be taken.</p>
