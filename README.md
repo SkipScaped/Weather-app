@@ -14,12 +14,12 @@ cd vite-app
 npm run dev
 ```
 # What you need to know:
-> Java Script
-> API Usage in js
-> React.js
-> API Usage in React.js
-> Vite dev server
-> HTML/CSS
+> Java Script,
+>   API Usage in js,
+>  React.js,
+>   API Usage in React.js,
+>     Vite dev server,
+>  HTML/CSS
 <h2>All the above are the things you need to know to use this template</h2>
 <hr>
 <footer>
