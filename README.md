@@ -1,7 +1,18 @@
-# A simple Weather app build in Reactjs.
+# ☁️☀️🌤️A simple Weather app build in Reactjs.
 # How to use API
 > Grab <a herf="https://openweathermap.org/api">API</a> and then use lat and lon for API. Paste your api Key in service.js and its geo coding URL.
 > Put you name in the footer and thats all.
+# How to use vite dev server:
+### Change the Directory to 
+
+```
+cd vite-app
+```
+### Then in the terminal write
+
+```
+npm run dev
+```
 # What you need to know:
 > Java Script
 > API Usage in js
