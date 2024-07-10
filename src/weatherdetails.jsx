@@ -38,7 +38,7 @@ function WeatherDetails ({weatherdetails}) {
             <footer>
                 <p>
                      &copy; 2024 All rights reserved | Designed and coded by
-                    <a href="https://github.com/SkipScaped" target="_blank">Aaliyan</a>
+                    <a href="https://github.com/SkipScaped" target="_blank"> Aaliyan</a>
                     <span></span>
                 </p>
             </footer>
